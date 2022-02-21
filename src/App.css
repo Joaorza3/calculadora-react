@@ -110,8 +110,8 @@ body {
     margin: 0.2em;
     transition: all .4s;
     font-size: 1.1em;
-    background-image: linear-gradient(120deg, #fff, #ddf);
     cursor: pointer;
+    background-size: cover;
 }
 
 .calculadora-numeros-botao:hover {
@@ -179,7 +179,7 @@ body {
 }
 
 #h3-dark-mode {
-    color: #444;
+    color: #eed;
     transition: .4s;
 }
 
@@ -228,14 +228,16 @@ input[type=checkbox]:checked+.slider {
     animation-name: border-light;
     animation-duration: 2s;
     animation-iteration-count: infinite;
+    background-image: url('./img/mancha3.png');
 }
 
 .dark-numeros {
     background: #234650;
-    background: linear-gradient(120deg, #234650, 70%, #143942);
+    background: linear-gradient(120deg, #224a55, 70%, #143942);
     color: #fff;
-    border: 1px solid #00aeff25;
+    border: 1px solid #00aeff7a;
     box-shadow: -1px 1px 10px 0 #00000038;
+    background-image: url('./img/mancha3.png');
 }
 
 .dark-operacoes {
@@ -252,6 +254,7 @@ input[type=checkbox]:checked+.slider {
     background: #a200ff;
     border-right: 2px solid #00aeff55;
     border-bottom: 2px solid #00aeff55;
+    background-image: url('./img/mancha3.png');
 }
 
 .dark-display {

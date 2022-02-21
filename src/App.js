@@ -42,7 +42,7 @@ function App() {
             document.body.style.background = '#1B1D27';
             
         } else {
-            h3.style.color = '#444';
+            h3.style.color = '#eed';
             h3.classList.remove('text-neon');
 
             switch_btn.style.border = 'none';
